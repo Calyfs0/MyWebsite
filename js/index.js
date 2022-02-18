@@ -19,4 +19,7 @@ document.querySelector(".contact").addEventListener("click", function () {
   document.querySelector(".fluid-container").style.backgroundColor = "#6c3f52";
 });
 
-document.querySelector(".downloadcv").addEventListener("click", function () {});
+document.querySelector(".downloadcv").addEventListener("click", function () {
+  document.getElementById("my_iframe").src = "./cv/CV.pdf";
+  console.log("dowloadcv");
+});
