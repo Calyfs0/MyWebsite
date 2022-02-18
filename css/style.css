@@ -1,0 +1,54 @@
+body {
+  background-color: black;
+  font-family: "Titillium Web", sans-serif;
+}
+
+#header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.heading {
+  border-style: solid;
+  border-color: white;
+  padding-bottom: 10px;
+  border-width: 1px;
+}
+
+#navigationbar {
+  padding-top: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.heading2 {
+  border-style: solid;
+  border-color: white;
+  padding-bottom: 2px;
+  border-width: 1px;
+}
+#navigationbar a {
+  text-decoration: none;
+}
+
+/* #navigationbar a:hover {
+  color: black;
+  background-color: white;
+} */
+#navigationbar a {
+  color: #fff;
+}
+.heading2:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.modal {
+  color: red;
+}
